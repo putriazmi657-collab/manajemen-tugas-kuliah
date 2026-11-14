@@ -6,6 +6,7 @@ import './style.css'
 // ==========================================
 
 const appName: string = import.meta.env.VITE_APP_NAME || 'Manajemen Tugas Kuliah'
+const developmentMode: boolean = true
 const appVersion: string = import.meta.env.VITE_APP_VERSION || '1.0.0'
 const storageKey: string = 'manajemen-tugas-kuliah'
 
