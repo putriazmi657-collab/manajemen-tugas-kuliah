@@ -144,3 +144,6 @@ https://github.com/putriazmi657-collab/manajemen-tugas-kuliah
 Aplikasi Taskly dapat dikembangkan dengan menambahkan fitur login pengguna, sinkronisasi data melalui database, notifikasi tenggat waktu, dan integrasi API.
 ## Dokumentasi Pengembangan
 Proyek Taskly dikembangkan menggunakan TypeScript dan Vite.
+
+## Implementasi Tipe Data Taskly
+Data tugas menggunakan interface Task, array Task[], tipe TaskStatus, dan generic loadData<T> untuk membaca data secara fleksibel.
